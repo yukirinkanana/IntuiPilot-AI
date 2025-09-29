@@ -1,21 +1,24 @@
 # Django + DRF + Vite(React/TS) 分离式脚手架
 
 ## 目录
+```text
 django-react-starter/
 ├─ backend/ # Django + DRF 后端 (SQLite, JWT, CORS)
-│ ├─ backend/ # Django 项目设置
-│ ├─ apps/core/ # 示例应用：/api/health
-│ ├─ manage.py
-│ ├─ requirements.txt
-│ └─ .env.example
+│  ├─ backend/            # Django 项目设置
+│  ├─ apps/core/          # 示例应用：/api/health
+│  ├─ manage.py
+│  ├─ requirements.txt
+│  └─ .env.example
 └─ frontend/ # Vite + React + TypeScript 前端
-├─ index.html
-├─ vite.config.ts # 代理 /api -> http://127.0.0.1:8000
-└─ src/
-├─ main.tsx
-├─ App.tsx
-├─ pages/Home.tsx
-└─ lib/api.ts
+   ├─ index.html
+   ├─ vite.config.ts      # 代理 /api -> http://127.0.0.1:8000
+   └─ src/
+      ├─ main.tsx
+      ├─ App.tsx
+      ├─ pages/Home.tsx
+      └─ lib/api.ts
+```
+
 
 
 ## 一键启动（开发）
